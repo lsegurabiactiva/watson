@@ -1,0 +1,5 @@
+package base.entities;
+
+public class User {
+
+}

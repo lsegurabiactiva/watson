@@ -1,0 +1,7 @@
+spring.datasource.url=jdbc:db2://dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net:50000/BLUDB
+spring.datasource.username=jjv43384
+spring.datasource.password=g8d1@qjh79p20nmd
+spring.datasource.driver-class-name=COM.ibm.db2.jdbc.app.DB2Driver
+spring.jpa.database-platform = cirrus.hibernate.sql.DB2Dialect
+spring.jpa.generate-ddl=true
+spring.jpa.hibernate.ddl-auto = update

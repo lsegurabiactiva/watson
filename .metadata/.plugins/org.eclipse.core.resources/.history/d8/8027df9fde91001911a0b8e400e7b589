@@ -1,0 +1,15 @@
+package base;
+
+import java.nio.charset.StandardCharsets;
+import java.security.MessageDigest;
+
+import org.springframework.security.crypto.password.Pbkdf2PasswordEncoder;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Pbkdf2PasswordEncoder encoder = new Pbkdf2PasswordEncoder();  
+		String encodedPassword = encoder.encode("Lucas123");
+		System.out.println(encodedPassword);
+	}
+}

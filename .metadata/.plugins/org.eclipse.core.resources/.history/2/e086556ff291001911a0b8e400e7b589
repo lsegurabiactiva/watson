@@ -1,0 +1,20 @@
+package base.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+import base.entities.User;
+import base.repository.UserRepository;
+
+public class UserService {
+ 
+    @Autowired
+    private UserRepository userRepository;
+ 
+    public void save(User u) {
+    	userRepository.save(u);
+    }
+ 
+
+}

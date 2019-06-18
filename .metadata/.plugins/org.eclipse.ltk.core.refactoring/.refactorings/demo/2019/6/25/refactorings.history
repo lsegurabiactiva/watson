@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;base.Test&apos; to &apos;PasswordUtil&apos;&#x0D;&#x0A;- Original project: &apos;demo&apos;&#x0D;&#x0A;- Original element: &apos;base.Test&apos;&#x0D;&#x0A;- Renamed element: &apos;base.PasswordUtil&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Test&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;base{Test.java[Test" matchStrategy="1" name="PasswordUtil" qualified="false" references="true" similarDeclarations="false" stamp="1560878063306" textual="false" version="1.0"/>
+</session>

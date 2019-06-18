@@ -1,0 +1,27 @@
+package base.services;
+
+import java.util.Collection;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public abstract class GenericService<E> {
+	
+	protected abstract JpaRepository getJpaRepository();
+	
+	public E save(E entity) {
+		return jpanRep.save(entity);
+    }
+ 
+    public Collection<E> getAllTodo() {
+        return jpanRep.findAll();
+    }
+ 
+    public E findById(Long id) {
+        return jpanRep.getOne(id);
+    }	
+    
+    public void deleteById(Long id) {
+        jpanRep.deleteById(id);
+    }	
+
+}

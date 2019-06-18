@@ -1,0 +1,7 @@
+spring.datasource.url=dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net
+spring.datasource.username=root
+spring.datasource.password=root
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+spring.jpa.database-platform = org.hibernate.dialect.MySQL5Dialect
+spring.jpa.generate-ddl=true
+spring.jpa.hibernate.ddl-auto = update
